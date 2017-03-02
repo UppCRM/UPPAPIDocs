@@ -16,11 +16,11 @@ In your HTTP request header, use **api_key** parameter to specify the API key.
 ####Following guide explains how to generate an API key
 
 * In console, click on user icon, Settings -> API Access. "Team API Access" popup will be displayed.  
-![apikey_setting](images/apikey_setting.png)
+![apikey_setting](https://github.com/UppCRM/UppApiDocs/wiki/images/apikey_setting.png)
 * Click on "Generate NEw Key", button. API KEY will be generated.
 * Select the "user".
 * Make sure you fill all the mandatory details and click save button.  
-![apikey_dialog](images/apikey_dialog.png)
+![apikey_dialog](https://github.com/UppCRM/UppApiDocs/wiki/images/apikey_dialog.png)
 * API KEY will be generated successfully. 
 
 ###Example to get list of accounts
@@ -94,6 +94,5 @@ In your HTTP request header, use **api_key** parameter to specify the API key.
 * [GET accounts/:id - Get information about an existing account](https://github.com/UppCRM/UppApiDocs/wiki/API-Account-Details)
 * [POST accounts - Create a new account](https://github.com/UppCRM/UppApiDocs/wiki/API-Account-Create)
 * [PUT accounts/:id - Update an existing account](https://github.com/UppCRM/UppApiDocs/wiki/API-Account-Update)
-* [PATCH accounts/:id - Create new or update existing account](https://github.com/UppCRM/UppApiDocs/wiki/API-Account-Path)
 * [DELETE accounts/:id - Remove an existing account](https://github.com/UppCRM/UppApiDocs/wiki/API-Account-Delete)
 
