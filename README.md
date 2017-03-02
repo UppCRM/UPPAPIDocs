@@ -1,5 +1,4 @@
 
-
 ##UPP REST API Documentation
 
 UPP REST APIs provide programmatic access to read, update and delete various UPP objects.  
@@ -17,7 +16,7 @@ In your HTTP request header, use **api_key** parameter to specify the API key.
 ####Following guide explains how to generate an API key
 
 * In console, click on user icon, Settings -> API Access. "Team API Access" popup will be displayed.  
-![apikey_settings](images/apikey_settings.png)
+![apikey_setting](images/apikey_setting.png)
 * Click on "Generate NEw Key", button. API KEY will be generated.
 * Select the "user".
 * Make sure you fill all the mandatory details and click save button.  
@@ -28,7 +27,7 @@ In your HTTP request header, use **api_key** parameter to specify the API key.
 **Url** - http://v2.app.io/rest/v1/accounts/
 **Method** - GET
 
-####**Response:**
+###Response
 	{
 		"success": true,
 		"errors": null,
@@ -91,10 +90,10 @@ In your HTTP request header, use **api_key** parameter to specify the API key.
 	}
 
 ###Accounts API
-* [GET accounts - List existing accounts](https://github.com/UppCRM/UppApiDocs/wiki/API--Account--Get)
-* [GET accounts/:id - Get information about an existing account](https://github.com/UppCRM/UppApiDocs/wiki/API--Account--Details)
-* [POST accounts - Create a new account](https://github.com/UppCRM/UppApiDocs/wiki/API--Account--Create)
-* [PUT accounts/:id - Update an existing account](https://github.com/UppCRM/UppApiDocs/wiki/API--Account--Update)
-* [PATCH accounts/:id - Create new or update existing account](https://github.com/UppCRM/UppApiDocs/wiki/API--Account--Path)
-* [DELETE accounts/:id - Remove an existing account](https://github.com/UppCRM/UppApiDocs/wiki/API--Account--Delete)
+* [GET accounts - List existing accounts](https://github.com/UppCRM/UppApiDocs/wiki/API-Account-Get)
+* [GET accounts/:id - Get information about an existing account](https://github.com/UppCRM/UppApiDocs/wiki/API-Account-Details)
+* [POST accounts - Create a new account](https://github.com/UppCRM/UppApiDocs/wiki/API-Account-Create)
+* [PUT accounts/:id - Update an existing account](https://github.com/UppCRM/UppApiDocs/wiki/API-Account-Update)
+* [PATCH accounts/:id - Create new or update existing account](https://github.com/UppCRM/UppApiDocs/wiki/API-Account-Path)
+* [DELETE accounts/:id - Remove an existing account](https://github.com/UppCRM/UppApiDocs/wiki/API-Account-Delete)
 
